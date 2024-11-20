@@ -3,6 +3,7 @@ from bson import ObjectId
 from app.database import collection
 from app.models import SensorData, UpdateSensorData
 
+
 app = FastAPI()
 
 # Helper function to convert BSON ObjectId to string
