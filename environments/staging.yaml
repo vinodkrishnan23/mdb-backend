@@ -1,0 +1,4 @@
+envSecrets:
+    MONGODB_URI: sa-apac-ind-blr
+    ecr_access_key: sa-apac-ind-blr
+    ecr_secret_key: sa-apac-ind-blr
