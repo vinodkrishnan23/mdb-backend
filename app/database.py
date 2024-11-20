@@ -1,7 +1,8 @@
 from pymongo import MongoClient
+import os
 
 # MongoDB Configuration
-MONGO_URI = "mongodb+srv://root:root@practisem10.6awcb.mongodb.net/test"
+MONGO_URI = os.environ.get('MONGODB_URI')
 DATABASE_NAME = "ship_monitoring"
 COLLECTION_NAME = "engine_sensors"
 
